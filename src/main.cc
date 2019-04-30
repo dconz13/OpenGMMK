@@ -3,7 +3,6 @@
 
 int main() {
     printf("testing\n");
-    usbHandler* usb = new usbHandler();
-    delete usb;
+    usbHandler usb;
     return 0;
 }
